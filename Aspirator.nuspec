@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Aspirator</id>
+    <version>1.0</version>
+    <authors>Valentin Vasilyev</authors>
+    <owners>Valentin Vasilyev</owners>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+    <projectUrl>https://github.com/Valve/aspirator</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Easy to use ASP.NET MVC paginator</description>
+    <tags>asp.net-mvc, paging, paginator</tags>    
+  </metadata>
+</package>
