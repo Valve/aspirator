@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiP.Web.Mvc.Pagination", "KiP.Web.Mvc.Pagination\KiP.Web.Mvc.Pagination.csproj", "{ABA8795A-9788-4A2B-BF5A-563C9A83F030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiP.Web.Mvc.Pagination.Tests", "KiP.Web.Mvc.Pagination.Tests\KiP.Web.Mvc.Pagination.Tests.csproj", "{EB4F2EFE-18D0-40CD-89A7-EABDCDA4BFF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABA8795A-9788-4A2B-BF5A-563C9A83F030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA8795A-9788-4A2B-BF5A-563C9A83F030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA8795A-9788-4A2B-BF5A-563C9A83F030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA8795A-9788-4A2B-BF5A-563C9A83F030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB4F2EFE-18D0-40CD-89A7-EABDCDA4BFF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4F2EFE-18D0-40CD-89A7-EABDCDA4BFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB4F2EFE-18D0-40CD-89A7-EABDCDA4BFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB4F2EFE-18D0-40CD-89A7-EABDCDA4BFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

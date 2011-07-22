@@ -1,0 +1,9 @@
+bin/
+obj/
+*.suo
+*proj.user
+_ReSharper.*/
+*.ReSharper.user
+Thumbs.db
+
+
