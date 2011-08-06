@@ -68,6 +68,8 @@ There are various customizations available, accessible via parameters to Pager e
 
 The defaults are sensible, so in most cases you only need to pass the collection to Pager method.
 
+### Licence
+
 This code is [MIT][mit] licenced:
 
 Copyright (c) 2011 Valentin Vasilyev
