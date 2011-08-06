@@ -29,7 +29,7 @@ public class RegionsList : PagedList<Region> {
 
 Controller code
 
-```
+``` java
 public ViewResult Index(int? page, int pageSize = 10) {
     return View(new RegionsList(db.Regions.OrderBy(x=>x.Id), page - 1 ?? 0, pageSize));
 }
@@ -37,12 +37,12 @@ public ViewResult Index(int? page, int pageSize = 10) {
 
 View code
 
-```
+``` c-sharp
 @using KiP.Web.Mvc.Pagination
 ```
 
-```
- @Html.Pager(Model)
+``` razor
+@Html.Pager(Model)
 ```
 
 The paging links will look as follows:
@@ -63,6 +63,8 @@ There are various customizations available, accessible via parameters to Pager e
 * Outer window (default - 1)
 * Separator (default - " ")
 * Window links (default - true)
+
+The defaults are sensible, so in most cases you only need to pass the collection to Pager method.
 
 This code is [MIT][mit] licenced:
 
