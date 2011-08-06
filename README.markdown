@@ -16,6 +16,8 @@ Note that the [nuget package][nuget_package] references the ASP.NET MVC 3 assemb
 ## Basic usage
 
 Aspirator works with any collection that implements the [IQueryable&lt;T&gt;][iqueryable] interface.
+The [IQueryable&lt;T&gt;][iqueryable] is required to load only the displayed rows from the DB.
+
 
 Define your list view model that will be used in views.
 
