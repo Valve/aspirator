@@ -19,7 +19,7 @@ Aspirator works with any collection that implements the [IQueryable&lt;T&gt;][iq
 
 Define your list view model that will be used in views.
 
-```
+``` java
 public class RegionsList : PagedList<Region> {
 	public RegionsList(IQueryable<Region> source, int index, int pageSize)
 	    : base(source, index, pageSize) {
