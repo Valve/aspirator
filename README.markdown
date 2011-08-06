@@ -55,18 +55,7 @@ The paging links will look as follows:
 
 There are various customizations available, accessible via parameters to Pager extension method: 
 
-* Action name (default - current)
-* Controller name (default - current)
-* Html atrributes object (default - null)
-* Pager container (default - div)
-* Previous label (default - &larr;)
-* Next label (default - &rarr;)
-* Inner window  (default - 4)
-* Outer window (default - 1)
-* Separator (default - " ")
-* Window links (default - true)
-
-The defaults are sensible, so in most cases you only need to pass the collection to Pager method.
+For details, see [customization][wiki_customization] wiki.
 
 ### Licence
 
@@ -85,3 +74,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [iqueryable]: http://msdn.microsoft.com/en-us/library/system.linq.iqueryable.aspx
 [mit]: http://www.opensource.org/licenses/mit-license.php
 [will_paginate]: https://github.com/mislav/will_paginate
+[wiki_customization]: https://github.com/Valve/aspirator/wiki/Aspirator-customization
